@@ -1,0 +1,128 @@
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap");
+
+    body {
+        font-family: "M PLUS Rounded 1c", sans-serif;
+        min-height: 100vh;
+    }
+
+    .shade1 {
+        background-color: #aa5dd5;
+    }
+
+    .slider {
+        height: 60px;
+        position: relative;
+        left: 1400px;
+        top: 10px;
+        width: 20%;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+    }
+
+    /*  IMPORTANT CODE BELOW */
+    .slide-track {
+        width: calc(150px * 30);
+        display: flex;
+        animation: scroll 60s linear infinite;
+        justify-content: space-between;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .slide {
+        width: 150px;
+        height: 60px;
+        display: grid;
+        place-items: center;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .roundback {
+        border-radius: 25px;
+        text-align: center;
+        position: fixed;
+        margin: 0 auto;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(calc(-150px * 10));
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .slide-track {
+            width: calc(80px * 30);
+        }
+
+        .slide {
+            width: 80px;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0px);
+            }
+
+            100% {
+                transform: translateX(calc(-80px * 10));
+            }
+        }
+    }
+</style>
+
+<body>
+    <!--  Carousel -->
+    <div class="slider roundback">
+        <div class="slide-track">
+            <!-- bg-color-density -->
+            <div class="slide shade1">$$recentFollow</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentBits</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentGift</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentCommunity</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentRaid</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentSub</div>
+            <div class="slide shade1">|</div>
+            <!-- dupe -->
+            <div class="slide shade1">$$recentFollow</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentBits</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentGift</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentCommunity</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentRaid</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentSub</div>
+            <div class="slide shade1">|</div>
+            <!-- dupe2 -->
+            <div class="slide shade1">$$recentFollow</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentBits</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentGift</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentCommunity</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentRaid</div>
+            <div class="slide shade1">|</div>
+            <div class="slide shade1">$$recentSub</div>
+            <div class="slide shade1">|</div>
+        </div>
+    </div>
+</body>
