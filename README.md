@@ -4,10 +4,10 @@
 Recent events that have occurred on stream for Firebot
 
 #   Compatibility
-- Firebot 5.64.0-nightly.25.02.18+
+- Firebot 5.64.0-nightly.25.02.22+
 
 #   Install
-+   Download the latest Release item or
++   Download the latest Release item and extract or download the following:
     + RecentEvents.firebotsetup
     + recentEvents.html
 +   Import the downloaded firebotsetup file
@@ -26,4 +26,4 @@ Recent events that have occurred on stream for Firebot
     +   This setup currently utilizes persistence via individual text files.
 
 ##  Overlay
-+   This firebotsetup makes use of the Firebot overlay
++   This firebotsetup makes use of the Firebot overlay.
