@@ -4,7 +4,7 @@
 Recent events that have occurred on stream for Firebot
 
 #   Compatibility
-- Firebot 5.64.0-nightly.25.02.22+
+- Firebot 5.64.0-nightly.25.03.15+
 
 #   Install
 +   Download the latest Release item and extract or download the following:

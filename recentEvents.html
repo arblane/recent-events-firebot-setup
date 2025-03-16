@@ -4,6 +4,7 @@
     body {
         font-family: "M PLUS Rounded 1c", sans-serif;
         min-height: 100vh;
+        font-size: 24px;
     }
 
     .shade1 {
@@ -11,7 +12,7 @@
     }
 
     .slider {
-        height: 60px;
+        height: 100px;
         position: relative;
         left: 1400px;
         top: 10px;
@@ -23,10 +24,10 @@
 
     /*  IMPORTANT CODE BELOW */
     .slide-track {
-        width: calc(150px * 30);
+        width: auto;
         display: flex;
-        animation: scroll 60s linear infinite;
-        justify-content: space-between;
+        animation: scroll 45s linear infinite;
+        justify-content: flex-start;
         color: #fff;
         align-items: center;
         justify-content: center;
@@ -34,8 +35,8 @@
     }
 
     .slide {
-        width: 150px;
-        height: 60px;
+        width: 300px;
+        height: 100px;
         display: grid;
         place-items: center;
         transition: 0.5s;
@@ -43,7 +44,7 @@
     }
 
     .roundback {
-        border-radius: 25px;
+        border-radius: 50px;
         text-align: center;
         position: fixed;
         margin: 0 auto;
@@ -86,43 +87,18 @@
         <div class="slide-track">
             <!-- bg-color-density -->
             <div class="slide shade1">$$recentEvents[follow]</div>
-            <div class="slide shade1">|</div>
             <div class="slide shade1">$$recentEvents[cheer]</div>
-            <div class="slide shade1">|</div>
             <div class="slide shade1">$$recentEvents[gift]</div>
-            <div class="slide shade1">|</div>
             <div class="slide shade1">$$recentEvents[community]</div>
-            <div class="slide shade1">|</div>
             <div class="slide shade1">$$recentEvents[raid]</div>
-            <div class="slide shade1">|</div>
             <div class="slide shade1">$$recentEvents[sub]</div>
-            <div class="slide shade1">|</div>
-            <!-- dupe -->
             <div class="slide shade1">$$recentEvents[follow]</div>
-            <div class="slide shade1">|</div>
             <div class="slide shade1">$$recentEvents[cheer]</div>
-            <div class="slide shade1">|</div>
             <div class="slide shade1">$$recentEvents[gift]</div>
-            <div class="slide shade1">|</div>
             <div class="slide shade1">$$recentEvents[community]</div>
-            <div class="slide shade1">|</div>
             <div class="slide shade1">$$recentEvents[raid]</div>
-            <div class="slide shade1">|</div>
             <div class="slide shade1">$$recentEvents[sub]</div>
-            <div class="slide shade1">|</div>
-            <!-- dupe2 -->
-            <div class="slide shade1">$$recentEvents[follow]</div>
-            <div class="slide shade1">|</div>
-            <div class="slide shade1">$$recentEvents[cheer]</div>
-            <div class="slide shade1">|</div>
-            <div class="slide shade1">$$recentEvents[gift]</div>
-            <div class="slide shade1">|</div>
-            <div class="slide shade1">$$recentEvents[community]</div>
-            <div class="slide shade1">|</div>
-            <div class="slide shade1">$$recentEvents[raid]</div>
-            <div class="slide shade1">|</div>
-            <div class="slide shade1">$$recentEvents[sub]</div>
-            <div class="slide shade1">|</div>
+
         </div>
     </div>
 </body>
